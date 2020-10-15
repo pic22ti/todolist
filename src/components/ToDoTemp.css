@@ -1,0 +1,12 @@
+.ToDoTemp {
+  background-color: #fff;;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: 20px auto;
+}
+.AppTitle {
+  padding: 15px 10px;
+
+  color: #05F2AF;
+  font-size: 30px;
+}

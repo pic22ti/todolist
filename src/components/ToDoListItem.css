@@ -1,0 +1,37 @@
+.ToDoListItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+}
+.ToDoListItem:hover {
+  background-color: rgba(241, 241, 241, 0.534);
+}
+.checkbox {
+  width: 50px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  font-size: 18px;
+  color: #05F2AF;
+}
+.text {
+  width: calc(100% - 100px);
+  text-align: left;
+}
+.checkbox.checked,
+.text.checked
+{
+  color: #d5d5d5;
+  text-decoration-line: line-through;
+}
+.remove {
+  cursor: pointer;
+  width: 50px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #888;
+}
+.remove:hover {
+  color: rgb(218, 15, 15);
+}
