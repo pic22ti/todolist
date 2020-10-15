@@ -4,6 +4,7 @@
 }
 .input {
   flex: 1;
+  background-color: #f3f3f3;
   padding: 0 10px;
   border: none;
   font-size: 15px;
