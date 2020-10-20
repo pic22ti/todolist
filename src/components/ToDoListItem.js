@@ -8,14 +8,16 @@ const ToDoListItem = ({todo, onRemove, onToggle})=>{
 
   return (
     <div className="ToDoListItem">
+
+      {/* 체크박스 */}
       <div className={Class('checkbox', {checked})} onClick={()=>onToggle(id)}>
-        {
-          checked?
-          <MdCheckBox />:<MdCheckBoxOutlineBlank />
-        }
+        {checked? <MdCheckBox />:<MdCheckBoxOutlineBlank />}
       </div>
+
+      {/* 텍스트 */}
       <div className={Class('text', {checked})} onClick={()=>onToggle(id)}>{text}</div>
-      {/* onClick 되자마자 즉시 실행 */}
+
+      {/* 삭제 버튼 */}
       <div className="remove" onClick={()=>onRemove(id)}>
         <MdDelete />
       </div>
